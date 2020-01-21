@@ -1,0 +1,16 @@
+name : 张一鸣
+server:
+  port: 8081
+  undertow:
+    url-charset: utf-8
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-response: true
+
